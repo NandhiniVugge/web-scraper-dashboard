@@ -1,26 +1,32 @@
-# 🌐 Web Scraper & Interactive Dashboard
+📊 Web Scraping Dashboard
 
-A Python-based web scraping and data visualization project that extracts live or recent data from the web and visualizes it through an interactive dashboard using Google Colab.
+An interactive Jupyter Notebook Dashboard for scraping real-world data on Weather, News, and Cryptocurrency.
 
-## 🚀 Features
+🚀 Features
 
-- 📈 **Stock Tracker**  
-  Get live or recent stock prices using the Yahoo Finance API (`yfinance`). Visualize stock trends with Matplotlib.
+Weather Data 🌤
 
-- 📰 **News Aggregation**  
-  Scrape top news headlines from Google News based on custom keywords using `requests` and `BeautifulSoup`
-  
-- Clean, interactive dashboard
+Live temperatures for major cities (London, New York, Tokyo, Delhi, Sydney).
 
-## 📚 Requirements
+Bar chart visualization.
 
-Install the required Python libraries (Colab users can paste this in a cell):
+Download as weather.csv.
 
-```python
-!pip install yfinance beautifulsoup4 snscrape vaderSentiment pandas matplotlib seaborn --quiet
+News Headlines 📰
 
- 
+Choose category: General, Sports, Environment, Social Trends.
 
+Shows top 15 headlines.
 
+Word frequency bar chart.
 
+Download as news_<topic>.csv.
+
+Cryptocurrency Prices 💰
+
+Top 5 cryptocurrencies (by market cap) from CoinGecko API.
+
+Bar chart of prices in USD.
+
+Download as crypto.csv.
 
